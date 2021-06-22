@@ -1,0 +1,219 @@
+* {
+    /*border:1px solid red;*/
+    margin: 0;
+    padding:0;
+}
+
+#container {
+    width:850px;
+    margin:0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#topBarWrap {
+    background-color:black;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#topBar{
+    width:850px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+    height:60px;
+}
+
+#topBarLeft{
+    flex:1;
+    padding:0 10px;
+}
+
+#topBarMid{
+    flex:3;
+    padding:0 10px;
+}
+
+#topBarRight {
+    flex:2;
+    text-align:right;
+    padding:0 10px;
+}
+
+#topBar ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#signOutBtn {
+    padding:5px;
+    background-color: rgb(23,162,184);
+    font-weight:bold;
+    border:0;
+}
+
+#mainContent {
+    display:inline-block;
+    vertical-align: top;
+    width:64.5%;
+    margin-right:10px;
+}
+#sideBar{
+    width:33%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#sideBarTopHeader {
+    background-color:rgb(61, 61, 61);
+    color:white;
+    padding:10px 20px;
+    margin:-2px;
+}
+
+#sideBarTop {
+    border:2px solid rgb(146, 146, 146);
+}
+#cir {
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    background-color: lightgray;
+    text-align:center;
+    padding:5px;
+    display:inline-block;
+    color:rgb(65, 63, 63);
+}
+#sideBarTopHeader h3 {
+    display:inline-block;
+    margin-left:8px;
+}
+
+#personConn {
+    padding:5px 10px;
+    margin: 3px 0;
+}
+#personConn p{
+    display:inline-block;
+    vertical-align: middle;
+    padding:5px;
+    font-size: 20px;
+    font-weight: bold;
+    width:36%
+}
+#personConn img {
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#personConn a{
+    width:38px;
+    height:38px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+#sideBarBotHeader {
+    background-color:rgb(61, 61, 61);
+    color:white;
+    padding:10px 20px;
+    margin:-2px;
+}
+
+#sideBarBotHeader h3 {
+    display:inline-block;
+    margin-left:8px;
+}
+#sideBarBot {
+    border:2px solid rgb(146, 146, 146);
+}
+#olvo {
+    border-radius: 50%;
+    width:40px;
+    height:20px;
+    background-color: lightgray;
+    text-align:center;
+    padding:5px;
+    display:inline-block;
+    color:rgb(65, 63, 63);
+    font-weight: bold;
+}
+
+#moreLink {
+    text-align:center;
+    padding:10px;
+    border:2px solid darkgray;
+    margin:-2px;
+}
+
+#mainContentTop {
+    border:2px solid darkgray;
+}
+#mainContentTopHeader {
+    background-color:rgb(85, 157, 167);
+    height:90px;
+    position:relative;
+    margin:-2px;
+}
+
+#mainContentTopBody {
+    margin-top:20px;
+    position:relative;
+    padding:20px;
+}
+
+#mainContentTopHeader img {
+    width:12%;
+    position:absolute;
+    bottom:-30px;
+    left:20px;
+    border-radius: 50%;
+}
+#markerIcon {
+    width:10px;
+    margin-right:5px;
+}
+#loc img, #loc h3 {
+    display:inline-block;
+}
+
+#editProf {
+    display:inline-block;
+}
+
+#gearIcon {
+    width:15px;
+}
+
+
+#mainContentTop a {
+    color:darkslateblue;
+}
+
+#topBar a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#mainContentBot{
+    border:2px solid darkgray;
+}
+
+#mainContentBotHeader {
+    padding:5px 15px;
+    background-color:rgb(61, 61, 61);
+    color:white
+}
+
+#mainContentBotBody div{
+    padding:15px;
+}
+
+#mainContentBotBody h4{
+    color:rgb(119, 119, 119);
+}
